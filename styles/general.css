@@ -2,14 +2,12 @@ body {
 	display: flex;
 	height: 100vh;
 	background-color: var(--color-blue700);
+  justify-content: center;
+  align-items: center;
 }
 
 .white {
 	background-color: var(--color-white);
-}
-
-.hidden {
-	display: none;
 }
 
 .modal {
@@ -23,6 +21,7 @@ body {
 		}
 		button {
 			background-color: var(--color-blue800);
+      border: none;
 			color: var(--color-white);
 			font: var(--font-reg-bold);
 			border-radius: 0.5rem;
