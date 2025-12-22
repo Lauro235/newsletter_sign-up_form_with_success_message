@@ -15,25 +15,54 @@
 		<title>
 			Frontend Mentor | Newsletter sign-up form with success message
 		</title>
-    
+
+		<link rel="stylesheet" href="./styles/reset.css" />
 		<link rel="stylesheet" href="./styles/variables.css" />
+		<link rel="stylesheet" href="./styles/general.css" />
+    <link rel="stylesheet" href="./styles/mob.css">
 	</head>
 	<body>
 		<!-- Sign-up form start -->
-     <h1>test</h1>
+		<main class="white hidden">
+			<picture>
+				<source
+					media="(min-width: 1440px)"
+					srcset="assets/images/illustration-sign-up-desktop.svg"
+				/>
+				<source
+					media="(min-width: 768px)"
+					srcset="assets/images/illustration-sign-up-tablet.svg"
+				/>
+				<img
+					src="assets/images/illustration-sign-up-mobile.svg"
+					alt="Sign-up illustration"
+				/>
+			</picture>
+			Stay updated! Join 60,000+ product managers receiving monthly updates on:
+			Product discovery and building what matters Measuring to ensure updates
+			are a success And much more! Email address email@company.com Subscribe to
+			monthly newsletter
+			<!-- Sign-up form end -->
+		</main>
 
-		Stay updated! Join 60,000+ product managers receiving monthly updates on:
-		Product discovery and building what matters Measuring to ensure updates are
-		a success And much more! Email address email@company.com Subscribe to
-		monthly newsletter
+		<!-- <section class="modal hidden white grid"> -->
+		<section class="modal white">
+			<div class="overlay hidden"></div>
+			<div class="wrapper">
+				<img class="success-check-mark" src="./assets/images/icon-success.svg" alt="success" />
+				<h1>Thanks for subscribing!</h1>
+				<p>
+					<!-- consider span for wrapping control -->
+					A confirmation email has been sent to
+					<strong>ash@loremcompany.com</strong>. Please open it and click the
+					button inside to confirm your subscription.
+				</p>
 
-		<!-- Sign-up form end -->
+				<button class="modal-btn">Dismiss message</button>
+			</div>
+		</section>
 
 		<!-- Success message start -->
-
-		Thanks for subscribing! A confirmation email has been sent to
-		ash@loremcompany.com. Please open it and click the button inside to confirm
-		your subscription. Dismiss message
 
 		<!-- Success message end -->
 

@@ -1,0 +1,31 @@
+body {
+	display: flex;
+	height: 100vh;
+	background-color: var(--color-blue700);
+}
+
+.white {
+	background-color: var(--color-white);
+}
+
+.hidden {
+	display: none;
+}
+
+.modal {
+	.wrapper {
+		color: var(--color-blue800);
+		h1 {
+			font: var(--font-h1-mob);
+		}
+		p {
+			font: var(--font-reg);
+		}
+		button {
+			background-color: var(--color-blue800);
+			color: var(--color-white);
+			font: var(--font-reg-bold);
+			border-radius: 0.5rem;
+		}
+	}
+}
