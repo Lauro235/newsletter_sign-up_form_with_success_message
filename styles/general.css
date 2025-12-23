@@ -32,6 +32,11 @@ main {
 		h1 {
 			font: var(--font-h1-mob);
 		}
+		ul {
+			display: grid;
+			gap: var(--space-100);
+			list-style: url("../assets/images/icon-list.svg");
+		}
 		p,
 		li {
 			font: var(--font-reg);

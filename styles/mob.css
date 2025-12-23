@@ -28,11 +28,6 @@ main {
 	.cta-layout {
 		display: grid;
 		gap: var(--space-300);
-		ul {
-			display: grid;
-			gap: var(--space-100);
-			list-style: url("../assets/images/icon-list.svg");
-		}
 	}
 	.email-form {
 		button {
