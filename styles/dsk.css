@@ -1,4 +1,11 @@
 @media (min-width: 1440px) {
+	main {
+    max-width: 904px;
+		.wrapper {
+      flex-direction: row-reverse;
+      width: fit-content;
+		}
+	};
 	.modal {
 		button:hover {
 			background: var(--color-grad);

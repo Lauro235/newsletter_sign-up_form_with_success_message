@@ -46,22 +46,24 @@
 					/>
 				</picture>
 
-				<div class="cta-layout">
-					<h1>Stay updated!</h1>
-					<p>Join 60,000+ product managers receiving monthly updates on:</p>
-					<ul>
-						<li>Product discovery and building what matters</li>
-						<li>Measuring to ensure updates are a success</li>
-						<li>And much more!</li>
-					</ul>
-				</div>
-				<form class="email-form" action="#">
-					<label for="email">Email address:</label>
-					<!-- to do use js to check validity on form submission and if email not valid add aria-invalid -> true -->
-					<!-- https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-invalid -->
-					<input autocomplete="email" id="email" type="email" name="email-address" required />
-					<button type="submit">Subscribe to monthly newsletter</button>
-				</form>
+				<div class="action-wrapper">
+          <div class="cta-layout">
+            <h1>Stay updated!</h1>
+            <p>Join 60,000+ product managers receiving monthly updates on:</p>
+            <ul>
+              <li>Product discovery and building what matters</li>
+              <li>Measuring to ensure updates are a success</li>
+              <li>And much more!</li>
+            </ul>
+          </div>
+          <form class="email-form" action="#">
+            <label for="email">Email address:</label>
+            <!-- to do use js to check validity on form submission and if email not valid add aria-invalid -> true -->
+            <!-- https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-invalid -->
+            <input autocomplete="email" id="email" type="email" name="email-address" placeholder="email@company.com" required />
+            <button type="submit">Subscribe to monthly newsletter</button>
+          </form>
+        </div>
 			</div>
 			<!-- Sign-up form end -->
 		</main>
