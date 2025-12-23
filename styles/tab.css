@@ -1,4 +1,12 @@
 @media (min-width:768px) {
+  main {
+    .mob-image {
+      display: none;
+    }
+    picture.tab-image {
+      display: block;
+    }
+  }
   .modal {
     display: flex;
     align-items: center;

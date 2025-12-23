@@ -1,13 +1,57 @@
+/* This file deals with general styles that are universal over the different dimensions  */
+
 body {
 	display: flex;
 	height: 100vh;
 	background-color: var(--color-blue700);
-  justify-content: center;
-  align-items: center;
+	justify-content: center;
+	align-items: center;
 }
 
 .white {
 	background-color: var(--color-white);
+}
+
+main,
+.modal {
+	button {
+		height: 3.5rem;
+		background-color: var(--color-blue800);
+		border: none;
+		color: var(--color-white);
+		font: var(--font-reg-bold);
+		border-radius: 0.5rem;
+	}
+}
+
+main {
+	color: var(--color-blue800);
+	.cta-layout {
+		h1 {
+			font: var(--font-h1-mob);
+		}
+		p,
+		li {
+			font: var(--font-reg);
+		}
+	}
+	form {
+		display: flex;
+		flex-direction: column;
+		gap: var(--space-100);
+    
+		label {
+			display: block;
+			font: var(--font-small);
+		}
+    
+		input {
+			height: 3.5rem;
+			border-radius: 0.5rem;
+			font: var(--font-reg);
+			padding-inline: 1.5rem;
+		}
+	}
 }
 
 .modal {
@@ -18,13 +62,6 @@ body {
 		}
 		p {
 			font: var(--font-reg);
-		}
-		button {
-			background-color: var(--color-blue800);
-      border: none;
-			color: var(--color-white);
-			font: var(--font-reg-bold);
-			border-radius: 0.5rem;
 		}
 	}
 }
