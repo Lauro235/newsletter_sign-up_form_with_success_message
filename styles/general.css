@@ -2,7 +2,8 @@
 
 body {
 	display: flex;
-	height: 100vh;
+	/* 100vh causes content loss issues at different heights */
+	/* height: 100vh; */
 	background-color: var(--color-blue700);
 	justify-content: center;
 	align-items: center;
@@ -22,6 +23,7 @@ main,
 		font: var(--font-reg-bold);
 		border-radius: 0.5rem;
 	}
+	padding-block-end: 2.75rem;
 }
 
 main {
@@ -39,12 +41,12 @@ main {
 		display: flex;
 		flex-direction: column;
 		gap: var(--space-100);
-    
+
 		label {
 			display: block;
 			font: var(--font-small);
 		}
-    
+
 		input {
 			height: 3.5rem;
 			border-radius: 0.5rem;
