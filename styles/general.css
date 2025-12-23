@@ -35,7 +35,18 @@ main {
 		ul {
 			display: grid;
 			gap: var(--space-100);
-			list-style: url("../assets/images/icon-list.svg");
+			list-style: none;
+			li {
+				position: relative;
+			}
+			li::before {
+				position: absolute;
+				content: url("../assets/images/icon-list.svg");
+				height: fit-content;
+				width: fit-content;
+				top: 1.5px;
+				left: -37px;
+			}
 		}
 		p,
 		li {
