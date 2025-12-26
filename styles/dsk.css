@@ -1,11 +1,22 @@
 @media (min-width: 1440px) {
 	main {
-    max-width: 904px;
+		max-width: 904px;
+		max-height: 641px;
 		.wrapper {
-      flex-direction: row-reverse;
-      width: fit-content;
+			flex-direction: row-reverse;
+			width: 100%;
+			padding-inline: 2rem;
 		}
-	};
+		.action-wrapper {
+			gap: 2rem;
+			margin-block: 4.5rem;
+		}
+		.email-wrapper {
+			button {
+				margin-block-start: var(--space-300);
+			}
+		}
+	}
 	.modal {
 		button:hover {
 			background: var(--color-grad);

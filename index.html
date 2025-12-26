@@ -22,16 +22,17 @@
 		<link rel="stylesheet" href="./styles/mob.css" />
 		<link rel="stylesheet" href="./styles/tab.css" />
 		<link rel="stylesheet" href="./styles/dsk.css" />
-		<link rel="stylesheet" href="styles/dynamic-classes.css" />
+		<link rel="stylesheet" href="./styles/dynamic-classes.css" />
 	</head>
 	<body>
 		<!-- Sign-up form start -->
 		<main class="white">
 			<!-- conditionally rendered in mob.css -->
+			<!-- img is decorational so alt will be net negative for ux -->
 			<img
 				class="mob-image"
 				src="assets/images/illustration-sign-up-mobile.svg"
-				alt="Sign-up illustration"
+				alt=""
 			/>
 			<div class="wrapper">
 				<!-- conditionally rendered in tab.css -->
@@ -40,30 +41,34 @@
 						media="(min-width: 1440px)"
 						srcset="assets/images/illustration-sign-up-desktop.svg"
 					/>
-					<img
-						src="assets/images/illustration-sign-up-tablet.svg"
-						alt="Sign-up illustration"
-					/>
+					<img src="assets/images/illustration-sign-up-tablet.svg" alt="" />
 				</picture>
 
 				<div class="action-wrapper">
-          <div class="cta-layout">
-            <h1>Stay updated!</h1>
-            <p>Join 60,000+ product managers receiving monthly updates on:</p>
-            <ul>
-              <li>Product discovery and building what matters</li>
-              <li>Measuring to ensure updates are a success</li>
-              <li>And much more!</li>
-            </ul>
-          </div>
-          <form class="email-form" action="#">
-            <label for="email">Email address:</label>
-            <!-- to do use js to check validity on form submission and if email not valid add aria-invalid -> true -->
-            <!-- https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-invalid -->
-            <input autocomplete="email" id="email" type="email" name="email-address" placeholder="email@company.com" required />
-            <button type="submit">Subscribe to monthly newsletter</button>
-          </form>
-        </div>
+					<div class="cta-layout">
+						<h1>Stay updated!</h1>
+						<p>Join 60,000+ product managers receiving monthly updates on:</p>
+						<ul>
+							<li>Product discovery and building what matters</li>
+							<li>Measuring to ensure updates are a success</li>
+							<li>And much more!</li>
+						</ul>
+					</div>
+					<form class="email-form" action="#">
+						<label for="email">Email address:</label>
+						<!-- to do use js to check validity on form submission and if email not valid add aria-invalid -> true -->
+						<!-- https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-invalid -->
+						<input
+							autocomplete="email"
+							id="email"
+							type="email"
+							name="email-address"
+							placeholder="email@company.com"
+							required
+						/>
+						<button type="submit">Subscribe to monthly newsletter</button>
+					</form>
+				</div>
 			</div>
 			<!-- Sign-up form end -->
 		</main>

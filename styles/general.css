@@ -41,9 +41,10 @@ main {
 			}
 			li::before {
 				position: absolute;
-				content: url("../assets/images/icon-list.svg");
-				height: fit-content;
-				width: fit-content;
+				content: "";
+        background-image: url("../assets/images/icon-list.svg");
+				height: 21px;
+				width: 21px;
 				top: 1.5px;
 				left: -37px;
 			}
