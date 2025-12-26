@@ -7,13 +7,14 @@
 	main {
 		border-radius: 2.25rem;
 		max-height: 878px;
+    padding-block-end: 0;
 		.action-wrapper {
 			display: grid;
       gap: 1.5rem;
 		}
     .email-form {
       button {
-        margin-block-start: 0;
+        margin-block-start: var(--space-100);
       }
     }
 		.mob-image {

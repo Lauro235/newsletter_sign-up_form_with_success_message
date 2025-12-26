@@ -27,10 +27,13 @@ main {
 	.mob-image {
 		width: 100%;
 	}
+  /* padding-block: var(--space-500); */
 	.wrapper {
 		width: 90%;
 		margin-inline: auto;
 		margin-block-start: var(--space-500);
+    height: 100%;
+    
 		gap: var(--space-500);
 	}
 	picture.tab-image {
