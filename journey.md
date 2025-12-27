@@ -14,3 +14,7 @@
 ## 23/12/25
 
 I added styles to the main section. I removed 100vh from the body as this caused a loss of content. I have managed to fix the image rendering issue. Now I have two images rendering inside the wrapper for tab and dsk screen sizes and an image rendering outside the wrapper for mobile devices.
+
+## 27/12/25
+
+I removed fixed height from the body and replaced with min-height. Which fixed all sorts of issues. I also realised I was using `padding-block` wrong as I was only including a single value. This helped me to clean up my code a bit. I got rid of a bunch of comments. This process has come to close for the main element, but the next step is to repeat for the .modal element.
