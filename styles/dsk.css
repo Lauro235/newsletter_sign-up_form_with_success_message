@@ -11,16 +11,13 @@
 			gap: 2rem;
 			margin-block: 4.5rem;
 		}
-		.email-wrapper {
-			button {
-				margin-block-start: var(--space-300);
-			}
+		.email-btn {
+			margin-block-start: var(--space-300);
 		}
 	}
-	.modal {
-		button:hover {
-			background: var(--color-grad);
-			cursor: pointer;
-		}
+	.email-btn:hover,
+	.modal-btn:hover {
+		background: var(--color-grad);
+		cursor: pointer;
 	}
 }

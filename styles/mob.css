@@ -3,11 +3,11 @@ main,
 .modal {
 	--padding-space: 4.375;
 	width: 100%;
-	max-width: 504px;
 	margin: 0 auto;
 }
 
 main {
+	/* max-width: 504px; */
 	.wrapper {
 		display: flex;
 		flex-direction: column;
@@ -36,6 +36,8 @@ main {
 	.cta-wrapper {
 		display: grid;
 		gap: var(--space-300);
+		margin-inline: auto;
+		max-width: 504px;
 	}
 	picture.tab-image {
 		display: none;
@@ -44,28 +46,22 @@ main {
 		display: grid;
 		gap: var(--space-300);
 	}
-	.email-form {
-		button {
-			margin-block-start: var(--space-300);
-		}
-	}
 }
 
 .modal {
-  display: flex;
+	display: flex;
 	padding-block: calc(var(--padding-space) * 1rem + 79px)
 		calc(var(--padding-space) * 1rem);
 	.wrapper {
 		gap: var(--space-400);
 		height: inherit;
-		width: 87%;
 		max-width: 327px;
 		margin: 0 auto;
 	}
 	img {
 		width: 4rem;
 	}
-	button {
+	.modal-btn {
 		margin-block-start: auto;
 	}
 }
