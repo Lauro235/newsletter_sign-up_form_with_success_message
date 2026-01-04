@@ -22,18 +22,18 @@ main {
 }
 
 main {
-  padding-block: 0 var(--space-500);
+	padding-block: 0 var(--space-500);
 
 	.mob-image {
 		width: 100%;
-    margin-block-end: var(--space-500);
+		margin-block-end: var(--space-500);
 	}
 	.wrapper {
 		width: 90%;
 		margin-inline: auto;
 		gap: var(--space-500);
 	}
-	.action-wrapper {
+	.cta-wrapper {
 		display: grid;
 		gap: var(--space-300);
 	}
@@ -52,8 +52,9 @@ main {
 }
 
 .modal {
-	padding-block-start: calc(var(--padding-space) * 1rem + 79px);
-	padding-block-end: calc(var(--padding-space) * 1rem);
+  display: flex;
+	padding-block: calc(var(--padding-space) * 1rem + 79px)
+		calc(var(--padding-space) * 1rem);
 	.wrapper {
 		gap: var(--space-400);
 		height: inherit;
