@@ -28,8 +28,7 @@ main {
 		margin-block-end: var(--space-500);
 	}
 	.wrapper {
-		width: 90%;
-		margin-inline: auto;
+		margin-inline: 2rem;
 		gap: var(--space-500);
 	}
 	.cta-wrapper {
