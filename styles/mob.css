@@ -7,7 +7,6 @@ main,
 }
 
 main {
-	/* max-width: 504px; */
 	.wrapper {
 		display: flex;
 		flex-direction: column;
@@ -37,7 +36,7 @@ main {
 		display: grid;
 		gap: var(--space-300);
 		margin-inline: auto;
-		max-width: 504px;
+		max-width: 31.5rem;
 	}
 	picture.tab-image {
 		display: none;
@@ -55,7 +54,7 @@ main {
 	.wrapper {
 		gap: var(--space-400);
 		height: inherit;
-		max-width: 327px;
+		max-width: 20.44rem;
 		margin: 0 auto;
 	}
 	img {
