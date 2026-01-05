@@ -22,3 +22,7 @@ I removed fixed height from the body and replaced with min-height. Which fixed a
 ## 04/01/2026
 
 Refactoring the code
+
+## 05/01/2026
+
+I captured the data sent by the user via FormData and injected it into the user email address supplied. I also removed max heights and replaced px for rem. Accessibility is important and rem helps users increase font sizing when they are struggling to read the text.
